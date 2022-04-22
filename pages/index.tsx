@@ -12,7 +12,11 @@ const Home: NextPage = () => {
   const { walletConnected } = useContext(EthersContext)
 
   return (
-    <div className="w-full h-screen flex items-center justify-center flex-col">
+    <div className="w-full h-screen flex items-center justify-center flex-col text-center">
+      <Head>
+        <title>$DIGDIG Mint</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <img
         src="dig.webp"
         alt="Elmo (Digital) on the moon"
