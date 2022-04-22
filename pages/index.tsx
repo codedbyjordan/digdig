@@ -22,7 +22,7 @@ const Home: NextPage = () => {
       <div className="my-8">
         <h1 className="text-7xl font-bold">Mint $DIGDIG</h1>
         <span className="text-2xl">
-          DigDig (pronounced didge-didge) The most annoying token on the
+          DigDig (pronounced didge-didge) is the most annoying token on the
           blockchain
         </span>
       </div>
